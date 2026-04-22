@@ -57,19 +57,24 @@ Key findings from the analysis include:
 
 #### How to Run the Project
 
-1. Clone the repository  
-   git clone https://github.com/madhubandi533/online_retail_recommendation-System.git
+1. **Clone the repository**
+```bash
+git clone https://github.com/madhubandi533/online_retail_recommendation-System.git
+```
 
+2. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
 
-2. Install dependencies
-   pip install -r requirements.txt
+3. **Add the dataset**
+- Place `OnlineRetail.xlsx` in the `data/` folder  
+- *(Dataset not included — download from [UCI Repository](https://archive.ics.uci.edu/dataset/352/online+retail))*
 
+4. **Open the notebook**
+```bash
+jupyter notebook notebooks/online_retail_recommendation.ipynb
+```
 
-3. Place the dataset file (OnlineRetail.xlsx) in the data/ folder
-
-
-4. Open the notebook
-   jupyter notebook notebooks/Online Retail Analytics & Recommendation System .ipynb
-
-
-5. Run all cells top to bottom (Kernel → Restart & Run All)
+5. **Run the notebook**
+- Click: `Kernel → Restart & Run All`
